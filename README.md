@@ -28,11 +28,11 @@ The `app.py` is a web interface built using Streamlit. It allows users to predic
 
     streamlit run app.py
 
-Open your browser and navigate to the link provided by Streamlit (typically http://localhost:8501).
+2. Open your browser and navigate to the link provided by Streamlit (typically http://localhost:8501).
 
-Use the sidebar to adjust cellular feature values and observe the radar chart and prediction.
+3. Use the sidebar to adjust cellular feature values and observe the radar chart and prediction.
 
-Note: This app is for educational purposes only. Do not use it to make medical decisions.
+`Note:` This app is for educational purposes only. Do not use it to make medical decisions.
 
 # Breast Cancer Prediction Model (model.py)
 The model.py file contains code to train and save a breast cancer prediction model. Here is an overview of the training process:
@@ -50,7 +50,7 @@ Saving the Model: The trained model and scaler are saved using Pickle.
 
 Note: Ensure that the necessary Python libraries are installed before running the script.
 
-Project Structure
+# Project Structure
 
 app.py: Main code for the prediction app.
 
