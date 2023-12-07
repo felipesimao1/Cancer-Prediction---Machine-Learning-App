@@ -16,6 +16,7 @@ The `app.py` is a web interface built using Streamlit. It allows users to predic
 
 4. **Observation:** This application is for academic purposes. It should never be used for official medical decisions.
 
+
 ### How to Use
 
 1. Clone the repository to your local environment:
@@ -55,6 +56,7 @@ model.py: Code for training and saving the prediction model.
 data/data.csv: Dataset used by the app and model.
 model/model.pkl: Trained prediction model.
 model/scaler.pkl: Scaler used for data normalization.
+[dataset link: ](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 How to Train the Model
 Run the following command:
