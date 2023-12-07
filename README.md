@@ -47,13 +47,6 @@ Model Training: Logistic Regression is used to train the model.
 
 Saving the Model: The trained model and scaler are saved using Pickle.
 
-How to Train the Model
-Run the following command:
-
-    ```bash
-    python model.py
-
-
 Note: Ensure that the necessary Python libraries are installed before running the script.
 
 Project Structure
@@ -62,3 +55,9 @@ model.py: Code for training and saving the prediction model.
 data/data.csv: Dataset used by the app and model.
 model/model.pkl: Trained prediction model.
 model/scaler.pkl: Scaler used for data normalization.
+
+How to Train the Model
+Run the following command:
+
+   ```bash
+   python model.py
