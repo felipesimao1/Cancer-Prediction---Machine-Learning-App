@@ -51,10 +51,15 @@ Saving the Model: The trained model and scaler are saved using Pickle.
 Note: Ensure that the necessary Python libraries are installed before running the script.
 
 Project Structure
+
 app.py: Main code for the prediction app.
+
 model.py: Code for training and saving the prediction model.
+
 data/data.csv: Dataset used by the app and model.
+
 model/model.pkl: Trained prediction model.
+
 model/scaler.pkl: Scaler used for data normalization.
 
 [dataset link: ](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
